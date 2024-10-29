@@ -1,0 +1,107 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #232f3e;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 24px;
+    margin: auto;
+}
+
+#search-bar {
+    padding: 5px;
+    margin-right: 5px;
+   width: 85%;
+}
+
+#search-button {
+    padding: 5px 10px;
+    background-color: white;
+    width: auto;
+    margin-bottom: 0.7rem;
+}
+
+.nav {
+    background-color: #37475a;
+    color: white;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+}
+
+.nav li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav li:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.product-list, .cart {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product, .cart-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: calc(35% - 40px);
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: rgba(42, 188, 42, 0.479);
+    border: none;
+    width: 100%;
+}
+
+h3 {
+    text-align: center;
+    margin-left: 0.8rem;
+}
+
+
+.footer {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.checkout-button {
+    background-color: #f0c14b;
+    color: #111;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
